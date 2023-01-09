@@ -19,3 +19,13 @@ public static void main(String[] args) {//BeepTask 클래스와 짝임.
         }
     }
 }
+
+//람다식 이용
+//Thread thread = new Thread(() ->{
+//Toolkit toolkit = Toolkit.getDefaultToolkit();
+//for(int i = 0;, i<5; i++){
+//toolkit.beep();
+//try{Thread.sleep(500);} catch(Exception e{}
+//}
+
+//});

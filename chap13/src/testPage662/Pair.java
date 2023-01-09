@@ -1,6 +1,6 @@
 package testPage662;
 
-public class Pair<K,V> {
+public class Pair<K,V> {  //제네릭 K랑 V 설정
 	private K key;
 	private V value;
 	
