@@ -20,6 +20,4 @@ public class ArrayAsListExample {
 			System.out.println("이름 : " + value);
 		}
 	}
-
-
 }

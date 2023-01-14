@@ -1,5 +1,5 @@
 package testPage289;
-
+//자식 클래스 사용
 public class DmbCellphoneExample {
 	public static void main(String[] args) {
 		// testpage291 객체 생성
@@ -15,7 +15,7 @@ public class DmbCellphoneExample {
 		// 부모로 부터 상속받은 메소드 호출
 		a.powerOn();
 		a.bell();
-		a.sendVoice("여보세요");  //290사용
+		a.sendVoice("여보세요");  //Cellphone사용
 		a.receiveVoice("안녕하세요! 저는 홍길동입니다.");
 		a.sendVoice("아~ 예 반갑습니다.");
 		a.hangUp();

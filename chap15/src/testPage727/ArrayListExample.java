@@ -2,6 +2,8 @@ package testPage727;
 
 import java.util.ArrayList;
 import java.util.List;
+//String 객체를 저장하는 ArrayList
+
 
 public class ArrayListExample {
 	public static void main(String[] args) {
@@ -10,11 +12,11 @@ public class ArrayListExample {
 		
 		//list에 String 타입의 객체 5개 저장해주기. add()메소드 사용
         //list.add(new String("가")); -> 이렇게 넣어도되고, 아래처럼 해도됨. String객체는 Integer와 다르게, 그냥 "가"로 넣어도됨 
-		list.add("가"); //인덱스 0에 "가" 넣기
-		list.add("나"); //인덱스 1에 "나" 넣기
-		list.add("다"); //인덱스 2에 "다" 넣기
-		list.add(2, "라"); //인덱스 2에 "라"넣기. 그럼 이게 인덱스2로 올라가고, "다"는 인덱스3으로 밀림 
-		list.add("마"); //인덱스 4에 "마" 넣기 
+		list.add("Java"); //인덱스 0에 "가" 넣기
+		list.add("JDBC"); //인덱스 1에 "나" 넣기
+		list.add("Servlet/JSP"); //인덱스 2에 "다" 넣기
+		list.add(2, "Database"); //인덱스 2에 "라"넣기. 그럼 이게 인덱스2로 올라가고, "다"는 인덱스3으로 밀림 
+		list.add("iBatis"); //인덱스 4에 "마" 넣기 
 		System.out.println("현재 list 객체 상황: " + list);
 		
 		//인덱스의 개수 출력해보기. size()메소드 사용

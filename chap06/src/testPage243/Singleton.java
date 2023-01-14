@@ -1,7 +1,9 @@
 package testPage243;
-
+//싱글톤
 public class Singleton {
-	private static Singleton singletone = new Singleton();//클래스 내부에서는 new연산자로 생성자 호출이 가능하다
+	//정적 필드
+	private static Singleton singletone = new Singleton();
+	//클래스 내부에서는 new연산자로 생성자 호출이 가능하다
 
 	private Singleton() {   //생성자 
 	}

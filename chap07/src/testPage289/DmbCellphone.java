@@ -1,12 +1,12 @@
 package testPage289;
-
-public class DmbCellphone extends Cellphone {   //testpage290을 상속받는다
+//자식클래스
+public class DmbCellphone extends Cellphone {   //Cellphone을 상속받는다
 	// 필드
 		int channel;
 
 		// 생성자
 		public DmbCellphone(String model, String color, int channel) {
-			this.model = model; //모델 생성자 선언 290에 모델가져옴
+			this.model = model; //모델 생성자 선언Cellphone에서 모델가져옴
 			this.color = color; //제네레이트하면 만들어짐
 			this.channel = channel;
 		}

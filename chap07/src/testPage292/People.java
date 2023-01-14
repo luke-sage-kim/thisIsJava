@@ -1,5 +1,5 @@
 package testPage292;
-
+//부모 클래스
 public class People {
 	public String name;
 	public String ssn;

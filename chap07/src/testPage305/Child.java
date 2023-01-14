@@ -1,5 +1,5 @@
 package testPage305;
-
+//자동 타입 변환 후의 멤버 접근
 public class Child extends Parent {
 	
 	@Override//재정의
