@@ -1,5 +1,5 @@
 package testPage311;
-
+//타이어 클래스
 public class Tire {
 	// 필드
 		public int maxRotation;  // 최대 회전수(타이어 수명)

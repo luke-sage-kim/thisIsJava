@@ -1,5 +1,5 @@
 package testPage311;
-
+//타이어의 자식 클래스
 	public class HankookTire extends Tire {
 		// 생성자
 		public HankookTire(String location, int maxRotation) {

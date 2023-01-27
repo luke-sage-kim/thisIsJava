@@ -1,10 +1,10 @@
 package testPage311;
-
+// 실행클래스
 public class CarExample {
 	public static void main(String[] args) {
 		Car car = new Car();
 
-		for(int i=1; i<=500; i++) {//시스아웃할떄 500번씩나눠서 되는지?
+		for(int i=1; i<=5; i++) {//시스아웃할떄 500번씩나눠서 되는지?
 			int problemLocation = car.run();
 			
 			switch(problemLocation){ //타이어 교체

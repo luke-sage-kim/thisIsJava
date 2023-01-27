@@ -1,9 +1,11 @@
 package testPage350;
+
+//구현 클래스
 //인터페이스 구현
 public class Television implements RemoteControl{  //implements 인터페이스 구현한다
 	private int volume;
 	
-	//turnOn
+	//turnOn   //인터페이스구현클래스들은 인터페이스 메소드들을 가지고 있어야함
 	public void turnOn() {
 		System.out.println("TV를 켭니다");
 	}

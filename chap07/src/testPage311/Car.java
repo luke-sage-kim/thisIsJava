@@ -1,5 +1,5 @@
 package testPage311;
-
+//타이어를 부품으로 가지는 클래스
 public class Car {
 	// 필드
 		Tire frontLeftTire = new Tire("앞왼쪽",0); //타이어 필드에 숫자

@@ -1,16 +1,16 @@
 package testPage393;
-
+//중첩 클래스 객체 생성
 public class Main {
 	public static void main(String[] args) {
-		A a = new A();
+		A a = new A();//바깥클래스 생성
 		
 		a.field0 = 1;
 		System.out.println(a.field0); //a.으로 해야됨 스태틱(this) 못함
-		a.method0();
+		a.method0();//메소드 실행
 		
 		System.out.println("------------");
 
-		A.B b = a.new B();
+		A.B b = a.new B();  //B라는 인스턴스 멤버
 		b.field1 = 3;
 		b.method1();
 

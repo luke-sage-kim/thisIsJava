@@ -1,5 +1,8 @@
 package testPage371;
 
+
+
+//구현클래스
 public class Bus implements Vehicle  {
 
 	@Override

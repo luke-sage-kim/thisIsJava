@@ -1,5 +1,5 @@
 package testPage334;
-
+//추상 메소드 선언
 public abstract class Animal {
 	public String kind;  //종
 

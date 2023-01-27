@@ -1,4 +1,6 @@
 package testPage350;
+
+
 //상수필드 선언
 public interface RemoteControl {
  public int MAX_VOLUME = 10;  //상수일때 대문자를 썼었다   static final 생략

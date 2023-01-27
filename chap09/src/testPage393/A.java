@@ -1,5 +1,5 @@
 package testPage393;
-
+// 중첩 클래스
 public class A {
 	// 필드
 	int field0;

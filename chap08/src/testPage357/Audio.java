@@ -1,5 +1,5 @@
 package testPage357;
-
+//구현 클래스
 public class Audio implements RemoteControl {
 	// 필드
 		private int volume;
