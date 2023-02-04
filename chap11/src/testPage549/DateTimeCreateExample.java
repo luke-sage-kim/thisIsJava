@@ -1,4 +1,4 @@
-package testPage543;
+package testPage549;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -33,17 +33,20 @@ public class DateTimeCreateExample {
 		System.out.println("협정 세계시: "+utcDateTime);
 		ZonedDateTime newyorkDateTime = ZonedDateTime.now(ZoneId.of("America/New_York"));
 		System.out.println("뉴욕 시간존: "+newyorkDateTime);
-
-		Instant instant = Instant.now();
-		Thread.sleep(10);
+		
+		
+		
 		Instant instant1 = Instant.now();
-		if (instant.isBefore(instant1)) {
-			System.out.println("instant 가 빠름");
-		} else if (instant.isAfter(instant1)) {
+		Thread.sleep(10);
+		Instant instant2 = Instant.now();
+	
+		if (instant1.isBefore(instant2)) {
 			System.out.println("instant1 이 빠름");
+		} else if (instant1.isAfter(instant2)) {
+			System.out.println("instant1 이 느림");
 		} else {
 			System.out.println("같음");
 		}
-		System.out.println(instant.until(instant1, ChronoUnit.NANOS));
+		System.out.println(instant1.until(instant2, ChronoUnit.NANOS));
 	}
 }

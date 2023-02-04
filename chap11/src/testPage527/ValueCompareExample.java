@@ -1,7 +1,8 @@
 package testPage527;
-
+//포장 객체 비교
 public class ValueCompareExample {
 	public static void main(String[] args) {
+		
 		System.out.println("-128 ~ 127 초과값일 경우");
 		Integer obj1 = 300;
 		Integer obj2 = 300;
@@ -10,7 +11,7 @@ public class ValueCompareExample {
 		System.out.println("equals()결과 :"+ obj1.equals(obj2));
 		System.out.println();
 
-		System.out.println("-128 ~ 127 초과값일 경우");
+		System.out.println("-128 ~ 127 범위값일일 경우");
 		Integer obj3 = 16;
 		Integer obj4 = 16;
 		System.out.println("==결과 :"+(obj3 == obj4 ));

@@ -3,7 +3,8 @@ package testPage533;
 public class MathExample {
 	public static void main(String[] args) {
 		//Math.abs() - 절대값을 구하는 메소드
-		//:파라메터가 int, double 처럼 다르면 다른 메소드이다. 이름은 같다. :overload라고 한다.
+		//:파라메터가 int, double 처럼 다르면 다른 메소드이다. 
+		//이름은 같다. :overload라고 한다.
 		int v1= Math.abs(-5);
 		double v2 = Math.abs(-3.14);   //abs absolute
 		System.out.println("v1=" + v1); //5
@@ -49,6 +50,8 @@ public class MathExample {
 		//Math.random() - 0 <= r <1 사이의 랜덤 double 숫자를 준다.
 		double v11 = Math.random();
 		System.out.println("v11=" + v11);
+//		int s11 =  (int) (Math.random()*10);
+//		System.out.println(s11);
 		
 		System.out.println();
 

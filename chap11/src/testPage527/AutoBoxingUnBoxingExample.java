@@ -1,5 +1,5 @@
 package testPage527;
-
+//자동 박싱과 언박싱
 public class AutoBoxingUnBoxingExample {
 public static void main(String[] args) {
 	//자동 Boxing

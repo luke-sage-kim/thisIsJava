@@ -1,5 +1,5 @@
 package testPage527;
-
+//뮨자열을 기본 타입 값으로 변환
 public class StringToPrimitiveValueExample {
 	public static void main(String[] args) {
 		

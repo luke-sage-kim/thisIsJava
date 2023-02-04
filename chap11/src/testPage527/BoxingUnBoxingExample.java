@@ -7,10 +7,12 @@ public static void main(String[] args) {
 	Integer obj1 = new Integer(100);   //기본 타입의 값을 줄경우
 	Integer obj2 = new Integer("200"); //문자열을 준경우
 	Integer obj3 = Integer.valueOf("300");//정적 밸류오브메소드
+	//기본 타입의 값을 갖는 객체  외부에서 변경할수없다
 	
 	//Unboxing
 	int value1  = obj1.intValue();
 	int value2  = obj2.intValue();
+	
 	int value3  = obj3.intValue();
 
 	System.out.println(value1);

@@ -1,8 +1,9 @@
 package testPage538;
 
-import java.util.Calendar;
+
 import java.util.TimeZone;
 //사용 가능한 시간대 문자열 출력
+
 public class PrintTimeZoneID {
 	public static void main(String[] args) {
 

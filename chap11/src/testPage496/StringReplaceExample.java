@@ -11,6 +11,4 @@ public class StringReplaceExample {
 		System.out.println(oldStr);
 		System.out.println(newStr);
 	}
-
-
 }

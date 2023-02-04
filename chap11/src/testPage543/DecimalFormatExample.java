@@ -27,7 +27,7 @@ public class DecimalFormatExample {
 		
 		df = new DecimalFormat("##########.#####");
 		System.out.println( df.format(num));
-		//.
+		//. 소수점
 		df = new DecimalFormat("#.0");
 		System.out.println( df.format(num));
 		

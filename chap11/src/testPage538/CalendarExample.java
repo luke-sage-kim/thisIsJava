@@ -1,12 +1,13 @@
 package testPage538;
 
 import java.util.Calendar;
-
+//운영체제의 시간대를 기준으로 Calendat 얻기
 public class CalendarExample {
 	public static void main(String[] args) {
 
-		Calendar now = Calendar.getInstance();//현재 운영체제에 설정되어있는 시간대를  기준으로 한 켈린더하위객체를 얻을수있다
-	//	System.out.println(now); java.util.GregorianCalendar[time=1672621664934,areField
+		Calendar now = Calendar.getInstance();
+		//현재 운영체제에 설정되어있는 시간대를  기준으로 한 켈린더하위객체를 얻을수있다
+	//System.out.println(now); java.util.GregorianCalendar[time=1672621664934,areField
 		
 		int year = now.get(Calendar.YEAR); //년도를 리턴
 		int month = now.get(Calendar.MONTH) + 1;// 월을 리턴
