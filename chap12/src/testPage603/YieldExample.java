@@ -23,7 +23,7 @@ public class YieldExample {
 		threadA.work = true; // ThreadA, ThreadB 모두 실행
 
 		try { //7번줄 하는동안 실행해야한다
-			Thread.sleep(3000);
+			Thread.sleep(3000); //3초뒤에 다시 stop을 트루로
 		} catch (InterruptedException e) {
 		}
 		// ThreadA, ThreadB 모두 종료

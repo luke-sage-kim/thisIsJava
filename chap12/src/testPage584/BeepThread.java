@@ -9,9 +9,7 @@ public class BeepThread extends Thread {
 		
 		for(int i=0; i<5; i++){
 			toolkit.beep();
-			System.out.println("웃긴개");
-
-			try{ Thread.sleep(1000);}catch(Exception e){} // 0.5초간 일시 정지
+			try{ Thread.sleep(500);}catch(Exception e){} // 0.5초간 일시 정지
 		}
 	}
 }

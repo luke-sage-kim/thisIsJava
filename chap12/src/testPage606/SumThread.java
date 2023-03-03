@@ -1,5 +1,6 @@
 package testPage606;
 
+// 1부터 100까지 합을 계산하는 스레드
 public class SumThread extends Thread {
  
     private long sum;

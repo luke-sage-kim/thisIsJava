@@ -2,7 +2,7 @@ package testPage586;
 
 public class ThreadA extends Thread {
 	public ThreadA () {
-		setName("ThreadA");
+		setName("ThreadA");//set name 해줘야 이름설정
 	}
 	
 	public void run() {

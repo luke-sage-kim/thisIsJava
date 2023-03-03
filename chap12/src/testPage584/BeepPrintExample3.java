@@ -9,7 +9,7 @@ public class BeepPrintExample3 {
 
 		
 		for(int i=0; i<5; i++){
-		//	System.out.println("개");
+			System.out.println("띵");
 			try{ Thread.sleep(1000);} //1000=1초
 			catch(Exception e){}
 		}
@@ -22,7 +22,7 @@ public class BeepPrintExample3 {
 				
 				for(int i=0; i<5; i++){
 					toolkit.beep();
-					System.out.println("개");
+					System.out.println("");
 
 					try{ Thread.sleep(500);}catch(Exception e){} // 0.5초간 일시 정지
 				}

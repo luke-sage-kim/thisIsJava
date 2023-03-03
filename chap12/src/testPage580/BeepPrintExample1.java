@@ -2,6 +2,7 @@ package testPage580;
 
 import java.awt.Toolkit;
 //메인스레드만 이용한 경우
+
 public class BeepPrintExample1 {
 	public static void main(String[] args) {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();  // 툴킷 객체얻기

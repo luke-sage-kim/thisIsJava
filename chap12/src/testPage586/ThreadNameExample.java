@@ -1,5 +1,5 @@
 package testPage586;
-
+//메인 스레드 이름 출력 및 UserThread 생성 및 시작
 public class ThreadNameExample {
 public static void main(String[] args) {
 	Thread mainThread = Thread.currentThread();
@@ -8,5 +8,10 @@ public static void main(String[] args) {
 	ThreadA threadA = new ThreadA();
 	System.out.println("작업 스레드 이름:"+threadA.getName());
 	threadA.start();
+	
+	ThreadB threadB = new ThreadB();
+	System.out.println("작업 스레드 이름:"+threadB.getName());
+	threadB.start();
+	
 }
 }
